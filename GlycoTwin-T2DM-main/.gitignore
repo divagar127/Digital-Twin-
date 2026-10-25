@@ -1,0 +1,40 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Datasets and processed files
+CGMacros/
+data/processed/*.csv
+data/processed/*.npz
+!data/processed/.gitkeep
+
+# TeX / LaTeX & Presentation files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.tex
+*.pdf
+
+# Reports, Literature Summaries, and Internal Notes
+literature_review_*
+literature_survey_*
+literature Review Papers/
+Project_Modules_and_Phases.md
+
+# IDE and OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
